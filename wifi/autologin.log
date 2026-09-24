@@ -1,0 +1,106 @@
+[2026-09-24 04:38:54] ⚠️  network DOWN — trying creds
+[2026-09-24 04:38:54] trying vml24ce026 ...
+[2026-09-24 04:38:54] ✅ CONNECTED as: vml24ce026
+[2026-09-24 04:38:57] ✅ network back UP
+[2026-09-24 04:44:14] 🔎 cached user: vml24ce026
+[2026-09-24 04:44:26] [control] logout requested
+[2026-09-24 04:44:27] [control] logout requested
+[2026-09-24 04:44:27] [control] logout requested
+[2026-09-24 04:44:30] [control] skip → next user
+[2026-09-24 04:44:44] [control] skip → next user
+[2026-09-24 04:46:18] [control] skip → next user
+[2026-09-24 04:50:58] [control] skip → next user
+[2026-09-24 04:51:43] ⚠️  network DOWN
+[2026-09-24 04:51:43] [control] skipped vml24ce026
+[2026-09-24 04:51:43] trying vml24ce011 ...
+[2026-09-24 04:51:44] ✅ CONNECTED as: vml24ce011
+[2026-09-24 04:51:44] ✅ network UP
+[2026-09-24 04:52:03] [control] skip → next user
+[2026-09-24 04:52:03] ✅ network UP
+[2026-09-24 04:52:40] ⚠️  network DOWN
+[2026-09-24 04:52:40] [control] skipped vml24ce026
+[2026-09-24 04:52:40] trying vml24ce011 ...
+[2026-09-24 04:52:40] ✅ CONNECTED as: vml24ce011
+[2026-09-24 04:52:41] ✅ network UP
+[2026-09-24 05:00:24] logging out vml24ce011
+[2026-09-24 05:00:27] network restored
+[2026-09-24 05:02:13] network drop detected
+[2026-09-24 05:02:13] trying vml24ce026 (index 0)
+[2026-09-24 05:02:13] ✅ connected as vml24ce026 — next index 1
+[2026-09-24 05:02:13] network restored
+[2026-09-24 05:04:26] logging out vml24ce026
+[2026-09-24 05:04:29] network restored
+[2026-09-24 05:04:45] network drop detected
+[2026-09-24 05:04:45] trying vml24ce011 (index 1)
+[2026-09-24 05:04:45] ✅ connected as vml24ce011 — next index 2
+[2026-09-24 05:04:46] network restored
+[2026-09-24 05:05:43] network drop detected
+[2026-09-24 05:05:43] trying vml24ce012 (index 2)
+[2026-09-24 05:05:43] ✅ connected as vml24ce012 — next index 3
+[2026-09-24 05:05:43] network restored
+[2026-09-24 05:06:36] network drop detected
+[2026-09-24 05:06:36] trying vml24ce007 (index 3)
+[2026-09-24 05:06:36] ✅ connected as vml24ce007 — next index 4
+[2026-09-24 05:06:36] network restored
+[2026-09-24 05:07:02] network drop detected
+[2026-09-24 05:07:02] trying vml24ce023 (index 4)
+[2026-09-24 05:07:03] ✅ connected as vml24ce023 — next index 5
+[2026-09-24 05:07:21] logging out vml24ce023
+[2026-09-24 05:08:06] network drop detected
+[2026-09-24 05:08:06] trying vml24ce020 (index 5)
+[2026-09-24 05:08:06] ✅ connected as vml24ce020 — next index 6
+[2026-09-24 05:08:07] network restored
+[2026-09-24 05:09:18] network drop detected
+[2026-09-24 05:09:19] trying vml24ce014 (index 6)
+[2026-09-24 05:09:19] ✅ connected as vml24ce014 — next index 7
+[2026-09-24 05:09:19] network restored
+[2026-09-24 05:09:36] network drop detected
+[2026-09-24 05:09:36] trying vml24ce008 (index 7)
+[2026-09-24 05:09:36] ✅ connected as vml24ce008 — next index 0
+[2026-09-24 05:09:37] network restored
+[2026-09-24 05:11:21] network drop detected
+[2026-09-24 05:11:21] trying vml24ce026 (index 0)
+[2026-09-24 05:11:21] ✅ connected as vml24ce026 — next index 1
+[2026-09-24 05:11:21] network restored
+[2026-09-24 05:12:59] network drop detected
+[2026-09-24 05:12:59] trying vml24ce011 (index 1)
+[2026-09-24 05:13:00] ✅ connected as vml24ce011 — next index 2
+[2026-09-24 05:13:00] network restored
+[2026-09-24 05:14:05] network drop detected
+[2026-09-24 05:14:05] trying vml24ce012 (index 2)
+[2026-09-24 05:14:05] ✅ connected as vml24ce012 — next index 3
+[2026-09-24 05:14:06] network restored
+[2026-09-24 06:15:02] network drop detected
+[2026-09-24 06:15:02] trying vml24ce007 (index 3)
+[2026-09-24 06:15:03] ✅ connected as vml24ce007 — next index 4
+[2026-09-24 06:15:04] network restored
+[2026-09-24 06:17:44] network drop detected
+[2026-09-24 06:17:44] trying vml24ce023 (index 4)
+[2026-09-24 06:17:44] ✅ connected as vml24ce023 — next index 5
+[2026-09-24 06:17:45] network restored
+[2026-09-24 06:17:57] network drop detected
+[2026-09-24 06:17:57] trying vml24ce020 (index 5)
+[2026-09-24 06:17:58] ✅ connected as vml24ce020 — next index 6
+[2026-09-24 06:17:58] network restored
+[2026-09-24 06:18:08] network drop detected
+[2026-09-24 06:18:08] trying vml24ce014 (index 6)
+[2026-09-24 06:18:08] ✅ connected as vml24ce014 — next index 7
+[2026-09-24 06:18:08] network restored
+[2026-09-24 06:18:49] logging out vml24ce014
+[2026-09-24 06:18:51] network restored
+[2026-09-24 06:19:53] network drop detected
+[2026-09-24 06:19:53] trying vml24ce008 (index 7)
+[2026-09-24 06:19:53] ✅ connected as vml24ce008 — next index 0
+[2026-09-24 06:19:54] network restored
+[2026-09-24 06:20:52] network drop detected
+[2026-09-24 06:20:52] trying vml24ce026 (index 0)
+[2026-09-24 06:20:52] ✅ connected as vml24ce026 — next index 1
+[2026-09-24 06:20:53] network restored
+[2026-09-24 06:21:07] network drop detected
+[2026-09-24 06:21:07] trying vml24ce011 (index 1)
+[2026-09-24 06:21:08] ✅ connected as vml24ce011 — next index 2
+[2026-09-24 06:21:09] network restored
+[2026-09-24 07:06:39] network drop detected
+[2026-09-24 07:06:40] trying vml24ce012 (index 2)
+[2026-09-24 07:06:40] ✅ connected as vml24ce012 — next index 3
+[2026-09-24 07:06:40] network restored
