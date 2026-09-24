@@ -1,0 +1,420 @@
+[2026-09-24 18:03:13] ─── log rotated ───
+[2026-09-24 18:05:28] ─── session started ───
+[2026-09-24 18:05:32] restored session: vml24ad070
+[2026-09-24 18:07:45] ─── session started ───
+[2026-09-24 18:07:49] restored session: vml24ad070
+[2026-09-24 18:09:19] ─── session started ───
+[2026-09-24 18:09:24] restored session: vml24ad070
+[2026-09-24 18:09:25] speed sample: 24.17 MB/s
+[2026-09-24 18:09:30] network drop detected
+[2026-09-24 18:09:30] trying vml24ce023 (random #1/10)
+[2026-09-24 18:09:34] ✗ rejected vml24ce023
+[2026-09-24 18:09:34] trying vml24ce014 (random #2/10)
+[2026-09-24 18:09:36] ✅ connected as vml24ce014
+[2026-09-24 18:09:39] network restored
+[2026-09-24 18:09:45] speed sample: 21.99 MB/s
+[2026-09-24 18:10:00] speed sample: 25.34 MB/s
+[2026-09-24 18:10:15] speed sample: 23.25 MB/s
+[2026-09-24 18:10:40] ─── session started ───
+[2026-09-24 18:10:44] restored session: vml24ce014
+[2026-09-24 18:10:46] speed sample: 17.97 MB/s
+[2026-09-24 18:11:00] speed sample: 20.69 MB/s
+[2026-09-24 18:11:15] speed sample: 17.11 MB/s
+[2026-09-24 18:11:30] speed sample: 17.84 MB/s
+[2026-09-24 18:11:47] speed sample: 7.95 MB/s
+[2026-09-24 18:12:00] speed sample: 19.06 MB/s
+[2026-09-24 18:12:15] speed sample: 19.35 MB/s
+[2026-09-24 18:12:34] speed sample: 1.25 MB/s
+[2026-09-24 18:12:45] speed sample: 14.82 MB/s
+[2026-09-24 18:13:00] speed sample: 15.28 MB/s
+[2026-09-24 18:13:17] speed sample: 8.17 MB/s
+[2026-09-24 18:13:30] speed sample: 23.81 MB/s
+[2026-09-24 18:13:45] speed sample: 22.47 MB/s
+[2026-09-24 18:14:00] speed sample: 24.02 MB/s
+[2026-09-24 18:14:15] speed sample: 24.65 MB/s
+[2026-09-24 18:14:30] speed sample: 23.35 MB/s
+[2026-09-24 18:14:49] speed sample: 0.09 MB/s
+[2026-09-24 18:14:51] network drop detected
+[2026-09-24 18:14:51] trying vml24ad052 (random #1/10)
+[2026-09-24 18:14:53] ✅ connected as vml24ad052
+[2026-09-24 18:14:53] network restored
+[2026-09-24 18:15:00] speed sample: 24.96 MB/s
+[2026-09-24 18:15:15] speed sample: 19.68 MB/s
+[2026-09-24 18:15:30] speed sample: 23.35 MB/s
+[2026-09-24 18:15:45] speed sample: 22.35 MB/s
+[2026-09-24 18:16:00] speed sample: 24.65 MB/s
+[2026-09-24 18:16:15] speed sample: 22.65 MB/s
+[2026-09-24 18:16:30] network drop detected
+[2026-09-24 18:16:30] trying vml24ce014 (random #1/10)
+[2026-09-24 18:16:31] ✅ connected as vml24ce014
+[2026-09-24 18:16:31] network restored
+[2026-09-24 18:16:41] speed test failed (raw=0)
+[2026-09-24 18:16:43] network drop detected
+[2026-09-24 18:16:43] trying vml24ce014 (random #1/10)
+[2026-09-24 18:16:43] ✅ connected as vml24ce014
+[2026-09-24 18:16:46] network restored
+[2026-09-24 18:16:52] network drop detected
+[2026-09-24 18:16:52] trying vml24ce020 (random #1/10)
+[2026-09-24 18:16:56] ✗ rejected vml24ce020
+[2026-09-24 18:16:56] trying vml24ce014 (random #2/10)
+[2026-09-24 18:16:59] ✅ connected as vml24ce014
+[2026-09-24 18:16:59] network restored
+[2026-09-24 18:17:04] speed sample: 24.95 MB/s
+[2026-09-24 18:17:19] speed sample: 22.44 MB/s
+[2026-09-24 18:17:34] speed sample: 23.44 MB/s
+[2026-09-24 18:17:46] network drop detected
+[2026-09-24 18:17:46] trying vml24ce014 (random #1/10)
+[2026-09-24 18:17:50] ✗ rejected vml24ce014
+[2026-09-24 18:17:50] trying vml24ce007 (random #2/10)
+[2026-09-24 18:17:51] ✅ connected as vml24ce007
+[2026-09-24 18:17:54] network restored
+[2026-09-24 18:17:59] speed sample: 22.90 MB/s
+[2026-09-24 18:18:14] speed sample: 24.92 MB/s
+[2026-09-24 18:18:29] speed sample: 19.71 MB/s
+[2026-09-24 18:18:44] speed sample: 23.91 MB/s
+[2026-09-24 18:18:58] speed sample: 27.08 MB/s
+[2026-09-24 18:19:14] speed sample: 24.42 MB/s
+[2026-09-24 18:19:20] network drop detected
+[2026-09-24 18:19:20] trying vml24ce023 (random #1/10)
+[2026-09-24 18:19:24] ✗ rejected vml24ce023
+[2026-09-24 18:19:25] trying vml24ce007 (random #2/10)
+[2026-09-24 18:19:26] ✅ connected as vml24ce007
+[2026-09-24 18:19:26] network restored
+[2026-09-24 18:19:31] speed sample: 25.91 MB/s
+[2026-09-24 18:19:46] speed sample: 24.72 MB/s
+[2026-09-24 18:20:06] ─── session started ───
+[2026-09-24 18:20:10] restored session: vml24ce007
+[2026-09-24 18:20:11] speed sample: 26.41 MB/s
+[2026-09-24 18:20:53] ─── session started ───
+[2026-09-24 18:20:57] restored session: vml24ce007
+[2026-09-24 18:20:58] speed sample: 23.93 MB/s
+[2026-09-24 18:21:31] logging out vml24ce007
+[2026-09-24 18:21:57] ─── session started ───
+[2026-09-24 18:22:01] started — waiting for session
+[2026-09-24 18:22:03] network drop detected
+[2026-09-24 18:22:03] trying vml24ce008 (random #1/10)
+[2026-09-24 18:22:04] ✅ connected as vml24ce008
+[2026-09-24 18:22:04] network restored
+[2026-09-24 18:22:16] speed sample: 24.58 MB/s
+[2026-09-24 18:22:21] speed sample: 25.68 MB/s
+[2026-09-24 18:22:23] speed sample: 26.87 MB/s
+[2026-09-24 18:23:29] network drop detected
+[2026-09-24 18:23:30] trying vml24ce011 (random #1/10)
+[2026-09-24 18:23:30] ✅ connected as vml24ce011
+[2026-09-24 18:23:30] network restored
+[2026-09-24 18:23:53] ─── session started ───
+[2026-09-24 18:23:57] restored session: vml24ce011
+[2026-09-24 18:23:59] speed sample: 14.45 MB/s
+[2026-09-24 18:24:04] speed sample: 18.57 MB/s
+[2026-09-24 18:24:07] speed sample: 18.80 MB/s
+[2026-09-24 18:24:16] speed sample: 7.70 MB/s
+[2026-09-24 18:24:17] speed sample: 19.43 MB/s
+[2026-09-24 18:24:21] speed sample: 19.52 MB/s
+[2026-09-24 18:31:08] ─── session started ───
+[2026-09-24 18:31:12] restored session: vml24ce011
+[2026-09-24 18:31:15] speed sample: 11.73 MB/s
+[2026-09-24 18:31:28] speed sample: 15.13 MB/s
+[2026-09-24 18:31:43] speed sample: 21.06 MB/s
+[2026-09-24 18:31:58] speed sample: 23.96 MB/s
+[2026-09-24 18:32:13] speed sample: 17.07 MB/s
+[2026-09-24 18:32:19] network drop detected
+[2026-09-24 18:32:19] trying vml24ad052 (random #1/10)
+[2026-09-24 18:32:23] ✗ rejected vml24ad052
+[2026-09-24 18:32:23] trying vml24ce014 (random #2/10)
+[2026-09-24 18:32:24] ✅ connected as vml24ce014
+[2026-09-24 18:32:25] network restored
+[2026-09-24 18:32:31] speed sample: 23.15 MB/s
+[2026-09-24 18:40:47] ─── session started ───
+[2026-09-24 18:40:52] restored session: vml24ce014
+[2026-09-24 18:40:53] speed sample: 19.81 MB/s
+[2026-09-24 18:40:55] logging out vml24ce014
+[2026-09-24 18:40:58] network restored
+[2026-09-24 18:41:09] speed sample: 11.56 MB/s
+[2026-09-24 18:44:32] network drop detected
+[2026-09-24 18:44:32] trying VML24CS063 (random #1/357)
+[2026-09-24 18:44:32] ✅ connected as VML24CS063
+[2026-09-24 18:44:32] network restored
+[2026-09-24 18:46:43] speed sample: 22.86 MB/s
+[2026-09-24 18:46:58] speed sample: 25.49 MB/s
+[2026-09-24 18:47:13] speed sample: 27.36 MB/s
+[2026-09-24 18:47:28] speed sample: 19.45 MB/s
+[2026-09-24 18:47:37] network drop detected
+[2026-09-24 18:47:37] trying VML24CS235 (random #1/357)
+[2026-09-24 18:47:37] ✅ connected as VML24CS235
+[2026-09-24 18:47:37] network restored
+[2026-09-24 18:47:43] speed sample: 23.84 MB/s
+[2026-09-24 18:47:58] speed sample: 25.62 MB/s
+[2026-09-24 18:48:13] speed sample: 25.83 MB/s
+[2026-09-24 18:50:41] ─── session started ───
+[2026-09-24 18:50:45] restored session: VML24CS235
+[2026-09-24 18:50:46] speed sample: 28.64 MB/s
+[2026-09-24 18:51:01] speed sample: 24.97 MB/s
+[2026-09-24 18:55:06] ─── session started ───
+[2026-09-24 18:55:10] restored session: VML24CS235
+[2026-09-24 18:55:16] speed sample: 3.31 MB/s
+[2026-09-24 18:55:31] speed sample: 4.01 MB/s
+[2026-09-24 18:55:44] speed sample: 6.92 MB/s
+[2026-09-24 18:57:02] network drop detected
+[2026-09-24 18:57:02] trying VML24CE020 (random #1/357)
+[2026-09-24 18:57:02] ✗ rejected VML24CE020
+[2026-09-24 18:57:02] trying VML24EC002 (random #2/357)
+[2026-09-24 18:57:02] ✗ rejected VML24EC002
+[2026-09-24 18:57:02] trying vml24ad052 (random #3/357)
+[2026-09-24 18:57:02] ✗ rejected vml24ad052
+[2026-09-24 18:57:02] trying VML24CS227 (random #4/357)
+[2026-09-24 18:57:02] ✗ rejected VML24CS227
+[2026-09-24 18:57:03] trying VML24AD099 (random #5/357)
+[2026-09-24 18:57:03] ✗ rejected VML24AD099
+[2026-09-24 18:57:03] trying VML24CS050 (random #6/357)
+[2026-09-24 18:57:03] ✗ rejected VML24CS050
+[2026-09-24 18:57:03] trying VML24AD022 (random #7/357)
+[2026-09-24 18:57:03] ✗ rejected VML24AD022
+[2026-09-24 18:57:03] trying VML24CS105 (random #8/357)
+[2026-09-24 18:57:03] ✗ rejected VML24CS105
+[2026-09-24 18:57:03] trying VML24AD056 (random #9/357)
+[2026-09-24 18:57:03] ✗ rejected VML24AD056
+[2026-09-24 18:57:03] trying VML24CE008 (random #10/357)
+[2026-09-24 18:57:03] ✗ rejected VML24CE008
+[2026-09-24 18:57:03] trying LVML24CS251 (random #11/357)
+[2026-09-24 18:57:03] ✗ rejected LVML24CS251
+[2026-09-24 18:57:03] trying vml24ce008 (random #12/357)
+[2026-09-24 18:57:03] ✗ rejected vml24ce008
+[2026-09-24 18:57:03] trying VML24CS215 (random #13/357)
+[2026-09-24 18:57:03] ✗ rejected VML24CS215
+[2026-09-24 18:57:03] trying VML24ME012 (random #14/357)
+[2026-09-24 18:57:03] ✗ rejected VML24ME012
+[2026-09-24 18:57:03] trying VML24CS172 (random #15/357)
+[2026-09-24 18:57:03] ✗ rejected VML24CS172
+[2026-09-24 18:57:03] trying VML24CS073 (random #16/357)
+[2026-09-24 18:57:03] ✗ rejected VML24CS073
+[2026-09-24 18:57:04] trying VML24CS233 (random #17/357)
+[2026-09-24 18:57:04] ✗ rejected VML24CS233
+[2026-09-24 18:57:04] trying VML24CS111 (random #18/357)
+[2026-09-24 18:57:04] ✗ rejected VML24CS111
+[2026-09-24 18:57:04] trying VML24CE010 (random #19/357)
+[2026-09-24 18:57:04] ✗ rejected VML24CE010
+[2026-09-24 18:57:04] trying VML24CS182 (random #20/357)
+[2026-09-24 18:57:04] ✗ rejected VML24CS182
+[2026-09-24 18:57:04] trying VML24CS237 (random #21/357)
+[2026-09-24 18:57:04] ✗ rejected VML24CS237
+[2026-09-24 18:57:04] trying VML24CS100 (random #22/357)
+[2026-09-24 18:57:04] ✗ rejected VML24CS100
+[2026-09-24 18:57:04] trying VML24CS125 (random #23/357)
+[2026-09-24 18:57:04] ✗ rejected VML24CS125
+[2026-09-24 18:57:04] trying LVML24CS252 (random #24/357)
+[2026-09-24 18:57:04] ✗ rejected LVML24CS252
+[2026-09-24 18:57:04] trying VML24ME020 (random #25/357)
+[2026-09-24 18:57:04] ✗ rejected VML24ME020
+[2026-09-24 18:57:04] trying VML24AD092 (random #26/357)
+[2026-09-24 18:57:04] ✗ rejected VML24AD092
+[2026-09-24 18:57:04] trying VML24CS031 (random #27/357)
+[2026-09-24 18:57:04] ✗ rejected VML24CS031
+[2026-09-24 18:57:04] trying VML24CS169 (random #28/357)
+[2026-09-24 18:57:05] ✗ rejected VML24CS169
+[2026-09-24 18:57:05] trying VML24ME013 (random #29/357)
+[2026-09-24 18:57:05] ✗ rejected VML24ME013
+[2026-09-24 18:57:05] trying VML24CS081 (random #30/357)
+[2026-09-24 18:57:05] ✗ rejected VML24CS081
+[2026-09-24 18:57:05] trying VML24EC027 (random #31/357)
+[2026-09-24 18:57:05] ✗ rejected VML24EC027
+[2026-09-24 18:57:05] trying LVML24EE029 (random #32/357)
+[2026-09-24 18:57:05] ✗ rejected LVML24EE029
+[2026-09-24 18:57:05] trying VML24CS223 (random #33/357)
+[2026-09-24 18:57:05] ✗ rejected VML24CS223
+[2026-09-24 18:57:05] trying VML24CEBS018 (random #34/357)
+[2026-09-24 18:57:05] ✗ rejected VML24CEBS018
+[2026-09-24 18:57:05] trying VML24AD083 (random #35/357)
+[2026-09-24 18:57:05] ✗ rejected VML24AD083
+[2026-09-24 18:57:05] trying VML24CS049 (random #36/357)
+[2026-09-24 18:57:05] ✗ rejected VML24CS049
+[2026-09-24 18:57:05] trying VML24CSD006 (random #37/357)
+[2026-09-24 18:57:05] ✗ rejected VML24CSD006
+[2026-09-24 18:57:05] trying VML24EC030 (random #38/357)
+[2026-09-24 18:57:05] ✗ rejected VML24EC030
+[2026-09-24 18:57:05] trying VML24CS171 (random #39/357)
+[2026-09-24 18:57:05] ✗ rejected VML24CS171
+[2026-09-24 18:57:06] trying VML24EC043 (random #40/357)
+[2026-09-24 18:57:06] ✗ rejected VML24EC043
+[2026-09-24 18:57:06] trying VML24EC056 (random #41/357)
+[2026-09-24 18:57:06] ✗ rejected VML24EC056
+[2026-09-24 18:57:06] trying VML24CC049 (random #42/357)
+[2026-09-24 18:57:06] ✗ rejected VML24CC049
+[2026-09-24 18:57:06] trying VML24CC021 (random #43/357)
+[2026-09-24 18:57:08] ✅ connected as VML24CC021
+[2026-09-24 18:57:09] network restored
+[2026-09-24 18:57:16] network drop detected
+[2026-09-24 18:57:16] trying VML24CS144 (random #1/357)
+[2026-09-24 18:57:16] ✅ connected as VML24CS144
+[2026-09-24 18:57:17] network restored
+[2026-09-24 18:57:37] network drop detected
+[2026-09-24 18:57:37] trying VML24AD109 (random #1/357)
+[2026-09-24 18:57:37] ✅ connected as VML24AD109
+[2026-09-24 18:57:38] network restored
+[2026-09-24 18:57:55] network drop detected
+[2026-09-24 18:57:55] trying VML24CSD006 (random #1/357)
+[2026-09-24 18:57:55] ✅ connected as VML24CSD006
+[2026-09-24 18:57:55] network restored
+[2026-09-24 18:58:04] network drop detected
+[2026-09-24 18:58:05] trying VML24CSD002 (random #1/357)
+[2026-09-24 18:58:07] ✅ connected as VML24CSD002
+[2026-09-24 18:58:07] network restored
+[2026-09-24 18:58:15] network drop detected
+[2026-09-24 18:58:16] trying VML24CS003 (random #1/357)
+[2026-09-24 18:58:16] ✅ connected as VML24CS003
+[2026-09-24 18:58:17] network restored
+[2026-09-24 18:58:29] network drop detected
+[2026-09-24 18:58:29] trying VML24CEBS027 (random #1/357)
+[2026-09-24 18:58:29] ✅ connected as VML24CEBS027
+[2026-09-24 18:58:30] network restored
+[2026-09-24 18:58:38] network drop detected
+[2026-09-24 18:58:38] trying LVML24CS252 (random #1/357)
+[2026-09-24 18:58:38] ✅ connected as LVML24CS252
+[2026-09-24 18:58:39] network restored
+[2026-09-24 18:58:48] network drop detected
+[2026-09-24 18:58:48] trying VML24AD061 (random #1/357)
+[2026-09-24 18:58:48] ✅ connected as VML24AD061
+[2026-09-24 18:58:49] network restored
+[2026-09-24 18:58:56] network drop detected
+[2026-09-24 18:58:56] trying VML24AD097 (random #1/357)
+[2026-09-24 18:58:58] ✅ connected as VML24AD097
+[2026-09-24 18:58:58] network restored
+[2026-09-24 18:59:07] speed sample: 0.28 MB/s
+[2026-09-24 18:59:22] network drop detected
+[2026-09-24 18:59:22] trying VML24CS149 (random #1/357)
+[2026-09-24 18:59:23] ✅ connected as VML24CS149
+[2026-09-24 18:59:24] network restored
+[2026-09-24 18:59:31] network drop detected
+[2026-09-24 18:59:31] trying LVML24CS251 (random #1/357)
+[2026-09-24 18:59:32] ✅ connected as LVML24CS251
+[2026-09-24 18:59:33] network restored
+[2026-09-24 18:59:39] network drop detected
+[2026-09-24 18:59:40] trying VML24CE014 (random #1/357)
+[2026-09-24 18:59:44] ✗ rejected VML24CE014
+[2026-09-24 18:59:44] trying VML24CS050 (random #2/357)
+[2026-09-24 18:59:48] ✗ rejected VML24CS050
+[2026-09-24 18:59:48] trying VML24CSD025 (random #3/357)
+[2026-09-24 18:59:52] ✗ rejected VML24CSD025
+[2026-09-24 18:59:52] trying LVML24ME029 (random #4/357)
+[2026-09-24 18:59:56] ✗ rejected LVML24ME029
+[2026-09-24 18:59:56] trying VML24AD115 (random #5/357)
+[2026-09-24 19:00:00] ✗ rejected VML24AD115
+[2026-09-24 19:00:00] trying VML24AD040 (random #6/357)
+[2026-09-24 19:00:04] ✗ rejected VML24AD040
+[2026-09-24 19:00:04] trying VML24CSD016 (random #7/357)
+[2026-09-24 19:00:08] ✗ rejected VML24CSD016
+[2026-09-24 19:00:08] trying VML24CSD003 (random #8/357)
+[2026-09-24 19:00:12] ✗ rejected VML24CSD003
+[2026-09-24 19:00:12] trying VML24EC051 (random #9/357)
+[2026-09-24 19:00:16] ✗ rejected VML24EC051
+[2026-09-24 19:00:16] trying VML24CS012 (random #10/357)
+[2026-09-24 19:00:21] ✗ rejected VML24CS012
+[2026-09-24 19:00:21] trying VML24AD004 (random #11/357)
+[2026-09-24 19:00:25] ✗ rejected VML24AD004
+[2026-09-24 19:00:25] trying VML24ME018 (random #12/357)
+[2026-09-24 19:00:29] ✗ rejected VML24ME018
+[2026-09-24 19:00:29] trying VML24CS045 (random #13/357)
+[2026-09-24 19:00:33] ✗ rejected VML24CS045
+[2026-09-24 19:00:33] trying VML24AD091 (random #14/357)
+[2026-09-24 19:00:37] ✗ rejected VML24AD091
+[2026-09-24 19:00:37] trying VML24EE022 (random #15/357)
+[2026-09-24 19:00:41] ✗ rejected VML24EE022
+[2026-09-24 19:00:41] trying vml24ce014 (random #16/357)
+[2026-09-24 19:00:45] ✗ rejected vml24ce014
+[2026-09-24 19:00:45] trying VML24CS036 (random #17/357)
+[2026-09-24 19:00:49] ✗ rejected VML24CS036
+[2026-09-24 19:00:49] trying VML24AD049 (random #18/357)
+[2026-09-24 19:00:53] ✗ rejected VML24AD049
+[2026-09-24 19:00:53] trying VML24CS089 (random #19/357)
+[2026-09-24 19:07:05] ─── session started ───
+[2026-09-24 19:07:09] restored session: LVML24CS251
+[2026-09-24 19:07:15] speed sample: 0.00 MB/s
+[2026-09-24 19:07:18] network drop detected
+[2026-09-24 19:07:19] trying VML24CC051 (random #1/357)
+[2026-09-24 19:07:19] ✅ connected as VML24CC051
+[2026-09-24 19:07:19] network restored
+[2026-09-24 19:07:26] speed sample: 12.40 MB/s
+[2026-09-24 19:07:41] speed sample: 11.30 MB/s
+[2026-09-24 19:07:58] speed sample: 5.18 MB/s
+[2026-09-24 19:08:10] speed sample: 15.21 MB/s
+[2026-09-24 19:08:26] speed sample: 13.56 MB/s
+[2026-09-24 19:08:44] speed sample: 0.72 MB/s
+[2026-09-24 19:08:56] speed sample: 12.85 MB/s
+[2026-09-24 19:09:00] logging out VML24CC051
+[2026-09-24 19:09:00] network restored
+[2026-09-24 19:09:11] speed sample: 13.45 MB/s
+[2026-09-24 19:09:26] speed sample: 11.58 MB/s
+[2026-09-24 19:09:41] speed sample: 10.50 MB/s
+[2026-09-24 19:09:48] ─── session started ───
+[2026-09-24 19:09:53] started — waiting for session
+[2026-09-24 19:09:53] speed sample: 0.00 MB/s
+[2026-09-24 19:10:15] network drop detected
+[2026-09-24 19:10:16] trying VML24CS096 (random #1/357)
+[2026-09-24 19:10:16] ✅ connected as VML24CS096
+[2026-09-24 19:10:16] network restored
+[2026-09-24 19:10:25] logging out VML24CS096
+[2026-09-24 19:10:25] network restored
+[2026-09-24 19:10:42] network drop detected
+[2026-09-24 19:10:42] trying VML24CS130 (random #1/357)
+[2026-09-24 19:10:42] ✅ connected as VML24CS130
+[2026-09-24 19:10:42] network restored
+[2026-09-24 19:13:24] ─── session started ───
+[2026-09-24 19:13:35] ─── session started ───
+[2026-09-24 19:13:39] restored session: VML24CS130
+[2026-09-24 19:13:40] speed sample: 0.00 MB/s
+[2026-09-24 19:13:43] logging out VML24CS130
+[2026-09-24 19:14:00] ─── session started ───
+[2026-09-24 19:14:04] started — waiting for session
+[2026-09-24 19:14:07] network drop detected
+[2026-09-24 19:14:07] trying VML24EC002 (random #1/357)
+[2026-09-24 19:14:07] ✅ connected as VML24EC002
+[2026-09-24 19:14:07] network restored
+[2026-09-24 19:14:19] speed sample: 0.00 MB/s
+[2026-09-24 19:14:36] network drop detected
+[2026-09-24 19:14:36] trying VML24CS005 (random #1/357)
+[2026-09-24 19:14:36] ✅ connected as VML24CS005
+[2026-09-24 19:14:36] network restored
+[2026-09-24 19:27:51] ─── session started ───
+[2026-09-24 19:27:55] restored session: VML24CS005
+[2026-09-24 19:27:56] speed sample: 0.00 MB/s
+[2026-09-24 19:28:02] network drop detected
+[2026-09-24 19:28:03] trying VML24CS104 (random #1/357)
+[2026-09-24 19:28:04] ✅ connected as VML24CS104
+[2026-09-24 19:28:07] network restored
+[2026-09-24 19:28:11] speed sample: 0.00 MB/s
+[2026-09-24 19:28:26] network drop detected
+[2026-09-24 19:28:26] trying VML24CS210 (random #1/357)
+[2026-09-24 19:28:26] ✅ connected as VML24CS210
+[2026-09-24 19:28:27] network restored
+[2026-09-24 19:28:31] speed sample: 0.00 MB/s
+[2026-09-24 19:28:45] network drop detected
+[2026-09-24 19:28:46] trying vml24ce020 (random #1/357)
+[2026-09-24 19:28:46] ✅ connected as vml24ce020
+[2026-09-24 19:28:47] network restored
+[2026-09-24 19:28:51] speed sample: 0.00 MB/s
+[2026-09-24 19:29:06] speed sample: 0.00 MB/s
+[2026-09-24 19:29:14] network drop detected
+[2026-09-24 19:29:14] trying VML24CSD021 (random #1/357)
+[2026-09-24 19:29:14] ✅ connected as VML24CSD021
+[2026-09-24 19:29:15] network restored
+[2026-09-24 19:29:21] speed sample: 0.00 MB/s
+[2026-09-24 19:29:36] speed sample: 0.00 MB/s
+[2026-09-24 19:29:42] network drop detected
+[2026-09-24 19:29:42] trying VML24CS212 (random #1/357)
+[2026-09-24 19:29:42] ✅ connected as VML24CS212
+[2026-09-24 19:29:43] network restored
+[2026-09-24 19:30:08] ─── session started ───
+[2026-09-24 19:30:12] restored session: VML24CS212
+[2026-09-24 19:30:13] speed sample: 0.00 MB/s
+[2026-09-24 19:30:17] network drop detected
+[2026-09-24 19:30:17] trying VML24CSD016 (random #1/357)
+[2026-09-24 19:30:17] ✅ connected as VML24CSD016
+[2026-09-24 19:30:27] network restored
+[2026-09-24 19:30:39] network drop detected
+[2026-09-24 19:30:40] trying VML24CS024 (random #1/357)
+[2026-09-24 19:30:40] ✅ connected as VML24CS024
+[2026-09-24 19:30:40] network restored
+[2026-09-24 19:30:50] network drop detected
+[2026-09-24 19:30:50] trying LVML24EE027 (random #1/357)
+[2026-09-24 19:30:50] ✅ connected as LVML24EE027
+[2026-09-24 19:30:50] network restored
+[2026-09-24 19:30:55] speed sample: 0.00 MB/s
